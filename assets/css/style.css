@@ -340,6 +340,22 @@ img {
   font-weight: 600;
   line-height: 32.204px;
   margin: 0 6px 0 12px;
+  position: relative;
+}
+
+.link__head-text::after {
+  content: "";
+  width: 0px;
+  height: 1px;
+  background: #0c0c0d;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transition: all .3s ease;
+}
+
+.link__head-text:hover::after{
+  width: 100%;
 }
 
 .link__head-icon1 {
@@ -350,6 +366,7 @@ img {
 .link__head-delete {
   width: 25px;
   height: 25px;
+  cursor: pointer;
 }
 
 .link__item-body {
