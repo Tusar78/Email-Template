@@ -10,12 +10,14 @@ html {
 }
 
 body {
-  font-family: 'Gellix', sans-serif;
+  font-family: "Gellix", sans-serif;
   font-size: 1rem;
-  color: #1B1E35;
+  color: #1b1e35;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-weight: 400;
 }
 
@@ -25,7 +27,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: #1B1E35;
+  color: #1b1e35;
 }
 
 img {
@@ -38,4 +40,79 @@ img {
   max-width: 800px;
   width: 100%;
   margin: 0 40px;
+}
+
+/* =-= Start Hero Section =-= */
+.section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.hero {
+  padding: 67px 0 64px;
+}
+
+.hero__head {
+  max-width: 422px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.hero__date-text {
+  display: block;
+  max-width: 246px;
+  margin: auto;
+  padding: 4px 24px;
+  border-radius: 60px;
+  background: linear-gradient(
+      92deg,
+      #7c04ff 26.4%,
+      #cd3fff 71.91%,
+      #e290ff 95.17%
+    ),
+    #1b1e35;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.24px;
+}
+
+.hero__title {
+  color: #1b1e35;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.4px;
+  margin: 12px 0;
+}
+
+.hero__subtitle {
+  color: #1b1e35;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.hero__subtitle > span {
+  border-radius: 60px;
+  background: #f00;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 0 12px;
+}
+
+.hero__text {
+  margin-top: 24px;
+  max-width: 720px;
+  margin: 24px auto 0;
+  text-align: center;
+  color: #1b1e35;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 }
