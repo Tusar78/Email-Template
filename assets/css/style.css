@@ -422,3 +422,58 @@ img {
   line-height: 24px;
   text-decoration-line: underline;
 }
+
+/* =-= Media queries for 425px =-= */
+@media screen and (max-width: 475.98px) {
+  .container {
+    margin: 0 20px;
+  }
+  .hero {
+    padding: 60px 0;
+  }
+
+  .hero__date-text {
+    max-width: 209px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .hero__title {
+    font-size: 32px;
+  }
+
+  .timeline__content {
+    padding: 30px 30px 0;
+  }
+
+  .breakdown {
+    padding: 60px 0;
+  }
+
+  .breakdown__icon,
+  .action__icon {
+    width: 48px;
+    height: 48px;
+  }
+
+  .breakdown__title,
+  .action__title {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .breakdown__list {
+    justify-items: left;
+  }
+
+  .action__body-item {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    gap: 5px;
+  }
+
+  .action {
+    padding: 0 0 60px;
+  }
+}
