@@ -166,8 +166,9 @@ img {
 .breakdown__list {
   margin-top: 40px;
   display: grid;
-  grid-template-columns: repeat(4, minmax(140px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   justify-items: center;
+  gap: 20px;
 }
 
 .breakdown__item {
@@ -205,6 +206,7 @@ img {
 
 .breakdown__gd-img {
   object-fit: cover;
+  height: 100%;
 }
 
 .breakdown__btn {
@@ -319,7 +321,7 @@ img {
 .link__item-head {
   display: flex;
   justify-content: space-between;
-  align-content: center;
+  align-items: center;
 }
 
 .link__head-title {
