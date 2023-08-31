@@ -303,7 +303,6 @@ img {
 
 .link__list {
   margin-top: 40px;
-
 }
 
 .link__item {
@@ -391,4 +390,33 @@ img {
   font-weight: 500;
   line-height: 22.543px;
   letter-spacing: 0.161px;
+}
+
+/* =-= Footer Section Start =-= */
+.footer__content {
+  padding: 17px 20px 24px;
+  border-radius: 12px;
+  background: #f3f3f4;
+}
+.footer__address {
+  color: #1b1e35;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+}
+
+.footer__links {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer__link {
+  color: #0072db;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-decoration-line: underline;
 }
