@@ -1,0 +1,41 @@
+/* =-= Reset Code =-= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Gellix', sans-serif;
+  font-size: 1rem;
+  color: #1B1E35;
+}
+
+h1, h2, h3 {
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #1B1E35;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* =-= Reuses Class =-= */
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 40px;
+}
